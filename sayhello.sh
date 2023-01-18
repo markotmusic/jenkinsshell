@@ -1,3 +1,4 @@
+#!/bin/bash
 if [ $# -ne 2 ]; then
     echo "Enter topic, target "
     exit 0
