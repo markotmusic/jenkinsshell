@@ -14,7 +14,7 @@ pipeline {
         stage('Call Script') {
             steps {
                 sh 'chmod +x sayhello.sh'
-                sh 'sayhello.sh ${TOPIC_NAME} ${TARGET}'    //ova komanda nije ispravna, exit code 127, komanda nije prepoznata!
+                sh 'sayhello.sh test1 test2'    //ova komanda nije ispravna, exit code 127, komanda nije prepoznata!
             }
         }
     }
